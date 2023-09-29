@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\POC.DataAccess\POC.DataAccess.csproj" />
+    <ProjectReference Include="..\POC.Repositories\POC.Repositories.csproj" />
+    <ProjectReference Include="..\POC.Data\POC.DataModel.csproj" />
+  </ItemGroup>
+
+</Project>

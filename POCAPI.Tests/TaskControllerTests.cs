@@ -16,8 +16,12 @@ namespace POCAPI.Tests
         {
             _controller = new TaskController(_taskManagementMock.Object);
           
-        }  
-        
+        }
+        [TestMethod]
+        public void GetUsers_Should_Return_Userlist()
+        {
+
+        }
         [TestMethod]
         public void GetTask_Should_Return_Task_When_TaskId_Not_Null()
         {
